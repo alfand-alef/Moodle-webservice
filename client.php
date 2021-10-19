@@ -22,7 +22,8 @@ function getRandomPassword($passLen = 10) {
     return $pass;
 }
 
-$token = '7438c75e1f45e84c34b6fbc52c39ac83'; //Ключ пользователя
+
+$token = '7438c75e1f45e84c34b6fbc52c39ac83'; //Ключ пользователя вебсервиса
 $domainname = 'http://127.0.0.1/moodle'; //Адрес мудла
 $functionname = 'core_user_create_users'; //Наименование вызываемой функции
 $users_count = 10; //Количество пользователей в пакете
