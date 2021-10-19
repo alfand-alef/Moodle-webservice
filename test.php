@@ -35,6 +35,11 @@ and open the template in the editor.
         <?php for ($i = 0; $i < count($users); $i++): ?>
             <p><?= $users[$i]->name ?></p>
         <?php endfor; ?>
-        <p><?= file($filename)[0] ?></p>
+
+
+        <p dir="ltr" style="text-align: left;"><br></p>
+        <p dir="ltr" style="text-align: left;"><a href="https://youtu.be/szlgJ0sRV30?list=PLBlKgfcFv41v2pkVxctUyz0DgkqXu4BJf" target="_blank">https://youtu.be/szlgJ0sRV30?list=PLBlKgfcFv41v2pkVxctUyz0DgkqXu4BJf</a><br></p>
+        <p dir="ltr" style="text-align: left;"><a href="https://youtu.be/szlgJ0sRV30?list=PLBlKgfcFv41v2pkVxctUyz0DgkqXu4BJf" target="_blank">https://youtu.be/szlgJ0sRV30?list=PLBlKgfcFv41v2pkVxctUyz0DgkqXu4BJf</a><br></p>
+        <p dir="ltr" style="text-align: left;"><a href="https://youtu.be/OHtHqmnaiUc?list=PLBlKgfcFv41v2pkVxctUyz0DgkqXu4BJf" target="_blank">https://youtu.be/OHtHqmnaiUc?list=PLBlKgfcFv41v2pkVxctUyz0DgkqXu4BJf</a><br></p>
     </body>
 </html>
