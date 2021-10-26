@@ -63,6 +63,15 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
+/**
+     * Displays webservices page.
+     *
+     * @return string
+     */    
+        public function actionWebservices()
+    {
+        return $this->render('webservices');
+    }
 
     /**
      * Login action.
