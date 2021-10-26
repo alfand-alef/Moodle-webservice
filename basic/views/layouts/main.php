@@ -72,7 +72,7 @@ AppAsset::register($this);
 
 <footer class="footer mt-auto py-3 text-muted">
     <div class="container">
-        <p class="float-left">&copy; НПКЦ ДиТТ ДЗМ <?= date('Y') ?></p>
+        <p class="float-left">&copy; alef <?= date('d.m.Y') ?></p>
         <p class="float-right">Разработано alef</p>
     </div>
 </footer>
