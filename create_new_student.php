@@ -4,25 +4,6 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 
-// Функция для генерации случайного пароля
-function getRandomPassword($passLen = 10) {
-    $alfa = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    $symbols = '!@#$%&?';
-    $numbers = '1234567890';
-    $pass = '';
-    $alfaLength = strlen($alfa) - 1;
-    $symLength = strlen($symbols) - 1;
-    $numLength = strlen($numbers) - 1;
-    for ($i = 0; $i < $passLen; $i++) {
-        $n_s = rand(0, $alfaLength);
-        $pass = $pass . $alfa[$n_s];
-    }
-    $s_s = rand(0, $symLength);
-    $n_n = rand(0, $numLength);
-    $pass = $symbols[$s_s] . $pass . $numbers[$n_n];
-    return $pass;
-}
-
 $token = '7438c75e1f45e84c34b6fbc52c39ac83'; //Ключ пользователя вебсервиса
 $domainname = 'http://127.0.0.1/moodle'; //Адрес мудла
 $functionname = 'core_user_create_users'; //Наименование вызываемой функции
